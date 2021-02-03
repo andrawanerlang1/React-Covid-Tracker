@@ -1,3 +1,16 @@
+<h1 align='center'>Vue JS - Terbang.in</h1>
+  <p align="center">
+    <a href="https://terbangin.netlify.app/">View Demo</a>
+
+  </p>
+
+![Image Banner](https://raw.githubusercontent.com/andrawanerlang1/React-Covid-Tracker/React_CovTracker_Screenshot.PNG)
+
+## About The Project
+
+This project is created for requirement in completing Arkademy FullStack Web Developer Bootcamp.
+This website allow users to book flight from various airlines, interact with admin via chat, get booking notification and status, and also filter the airlines search result.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
