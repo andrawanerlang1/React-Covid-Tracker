@@ -4,7 +4,7 @@
 
   </p>
 
-![Image Banner](https://raw.githubusercontent.com/andrawanerlang1/React-Covid-Tracker/React_CovTracker_Screenshot.PNG)
+![Image Banner](https://github.com/andrawanerlang1/React-Covid-Tracker/blob/master/React_CovTracker_Screenshot.PNG)
 
 ## About The Project
 
