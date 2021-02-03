@@ -19,7 +19,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. <a href="https://nodejs.org/en/download/">Node Js</a>
 2. Node_modules `npm install` or `yarn install`
-3. Terbang.in Backend API [`here`](https://github.com/andrawanerlang1/TERBANGIN-BackEnd.git)
+3. Covid Mathdroid API [`here`](https://covid19.mathdro.id/api)
 
 ## installation
 
