@@ -29,15 +29,6 @@ const Cards = ({ data: { confirmed, recovered, deaths } }) => {
           value={deaths.value}
           className={styles.deaths}
         />
-        {/* <Grid item xs={12} md={4}>
-          <h1>Card 1</h1>
-        </Grid>
-        <Grid item xs={12} md={4}>
-          <h1>Card 2</h1>
-        </Grid>
-        <Grid item xs={12} md={4}>
-          <h1>Card 3</h1>
-        </Grid> */}
       </Grid>
     </div>
   );

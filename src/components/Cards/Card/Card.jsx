@@ -11,7 +11,7 @@ const CardComponent = ({ cardTitle, cardSubtitle, value, className }) => {
       xs={12}
       md={3}
       component={Card}
-      className={cn(styles.card, className)} // className={styles.card, styles.confirmed}
+      className={cn(styles.card, className)}
     >
       <CardContent>
         <Typography color="textSecondary">{cardTitle}</Typography>

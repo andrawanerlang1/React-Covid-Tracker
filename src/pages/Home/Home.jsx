@@ -5,11 +5,10 @@ import Typography from "@material-ui/core/Typography";
 import PickCountry from "../../components/PickCountry/PickCountry";
 import Cards from "../../components/Cards/Cards";
 import axios from "axios";
-// import {Link} from "react-router-dom"
 
 class Home extends React.Component {
   state = {
-    name: "Bagus Tri Harjanto",
+    name: "Andrawan Erlang Pradana",
     data: {},
   };
 
@@ -29,10 +28,6 @@ class Home extends React.Component {
   };
 
   getData = (country) => {
-    // Tanpa negara / global
-    // https://covid19.mathdro.id/api
-    // dengan negara
-    // https://covid19.mathdro.id/api/countries/nama_negara
     let setUrl = "https://covid19.mathdro.id/api";
     setUrl = country ? `${setUrl}/countries/${country}` : setUrl;
     axios
@@ -48,7 +43,6 @@ class Home extends React.Component {
   };
 
   render() {
-    // untuk pengecekan data masuk atau tidak menggunakan log
     const { data } = this.state;
     const lastUpdate = new Date(data.lastUpdate).toDateString();
     console.log(data);
@@ -60,9 +54,6 @@ class Home extends React.Component {
         </Typography>
         <PickCountry handleCountryChange={this.handleCountryChange} />
         <Cards data={data} />
-        {/* <Link to="/about">About</Link>
-        <h1>Halaman Home</h1>
-        <p>{this.state.name}</p> */}
       </div>
     );
   }

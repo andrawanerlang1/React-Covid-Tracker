@@ -5,8 +5,6 @@ import axios from "axios";
 
 const PickCountry = ({ handleCountryChange }) => {
   const [countries, setCountries] = useState([]);
-  // countries = untuk menyimpan datanya
-  // setCountries = untuk memanipulasi data
   useEffect(() => {
     getCountry();
   }, []);
@@ -17,7 +15,6 @@ const PickCountry = ({ handleCountryChange }) => {
       .then((res) => {
         console.log(res.data.countries);
         setCountries(res.data.countries);
-        // this.countries = res.data.countries
       })
       .catch((err) => {
         console.log(err);
