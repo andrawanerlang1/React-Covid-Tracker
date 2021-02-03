@@ -8,7 +8,7 @@
 
 ## About The Project
 
-This project is created as the skill implementation regarding React Js learned in Arkademy Bootcamp.
+This project is created as the implementation of ReactJS skill learned throught Arkademy Bootcamp.
 This website allow visitors to track the total cases, recovered, and death cases of the Covid-19 pandemic. Visitors can see those cases globally or based on desired country.
 
 # Getting Started with Create React App
